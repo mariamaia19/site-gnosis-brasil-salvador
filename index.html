@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html  lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="img/Imagem1.png">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHlZCutxHS_29Ya25GbXLvocPfuWqzZN8" async defer></script>
+	<title>Evento - Café Colonial Junino</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!--JQUERY-->
+</head>
+<body>
+	<header>
+		<div class="logotipo" id="gnosis">
+			<a href="index.html"><img src="img/imagotipo png transparente.png" alt="logotipo do Instituto Gnosis Brasil" style="height: 70px;"></a> <!--para adicionar link na imagem, coloque a imagem dentro da tag a-->
+		</div>
+		<nav>
+			<button class="hamburguer" onclick="clickmenu()"></button>
+			<div class="menu" id="itens">
+				<ul>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="programacao.html">Programação</a></li>
+					<li class="dropdown"> <!--A classe vem no li ou na div??-->
+							<a href="#">Quem Somos▾</a> <!--tem que ter dropdown-->
+								<ul>
+									<div class="content">
+										<li><a href="quemsomos.html">A Instituição Gnosis Brasil ▸</a></li>
+										<li><a href="contato.html">Contato ▸</a></li>
+									</div>	
+								</ul>
+					<li><a href="location.html">Visite-nos</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!--<div class="date">
+			<p id="data"></p>
+		</div>-->
+	</header>
+	<div class="hero_image1">
+		<div class="hero_text1">
+			<p>CAFÉ COLONIAL JUNINO</p>
+			<p>PALESTRA</p>
+			<img src="img/Imagem1(3).png" style="width: 100%; height: 40vh;">
+			<p>DA FESTA JUNINA </p>
+				<a id="button1" href="programacao.html">Confira a programação</a>
+		</div>
+	</div>
+		<section class="banner">
+			<p>Confira o que</p>
+			<h2>Você vai aprender</h2>
+		</section> <!--sempre se atente a fechar todas as tags para não gerar erros no código-->
+		<div class="servicos">
+			<div class="card_left" id="c1">
+				<img src="img/culto-ao-sol.jpg">
+				<div class="polaroid_card" id="c1">
+				<h3>A Origem dos Festejos Juninos</h3>
+				<p>e as Celebrações Religiosas</p>
+				</div>
+			</div>
+			<div class="card_right" >
+				<div class="polaroid_card" id="c2">
+					<h3>Equinócios e Solstícios</h3>
+					<p>e a relação com as Estações</p>
+					</div>
+				<img src="img/1630595202ic6130e88254621-og.webp">
+			</div>
+			<div class="card_left">
+				<img src="img/saojoao-600x397-809x536.jpg">
+				<div class="polaroid_card" id="c3">
+				<h3>Simbolismos da Festa Junina</h3>
+				<p>e seus significados</p>
+				</div>
+			</div>
+			<div class="card_right">
+				<div class="polaroid_card" id="c4">
+					<h3>O Esoterismo de João</h3>
+					<p>e a relação com o nosso Caminho</p>
+					</div>
+				<img src="img/1432322948.jpg">
+			</div>
+		</div>
+		<section class="new_journey">
+			<div class="layout">
+				<p>Consulte a programação e</p>
+				<h2>GARANTA JÁ SUA VAGA</h2>
+			</div>
+			<a href="https://w.app/gnosisbrasilsalvador" target="_blank">
+			<button class="start">QUERO ME INSCREVER</button>
+			</a>
+		</section>
+		<div class="localizacao">
+			<h2>ONDE NOS ENCONTRAR</h2>
+			<iframe src="https://www.google.com/maps/place/Gnosis+Brasil+-+Salvador/@-12.9811757,-38.5063942,15z/data=!4m2!3m1!1s0x0:0xf2882a09eb77aac7?sa=X&ved=1t:2428&ictx=111" 
+                title="localizacao do instituto Gnosis Brasil Salvador" 
+                style="width: 70%; height: 70vh; margin-top: 5%;"></iframe>
+		</div>
+		<footer>
+			<div>
+			   <a href="index.html">
+					<img src="img/imagotipo png transparente.png" style="height: 80px;" alt="logo de rodapé do Instituto Gnosis">
+			   </a>
+			</div>
+			<div class="container-footer">
+				<div class="rodape-info">
+					<h3>Eventos</h3>
+					<a href="#">Palestras Públicas</a>
+					<a href="#">Curso de Autoconhecimento</a>
+					<a href="#"></a>
+				</div>
+				<div class="rodape-info">
+					<h3>Fale Conosco</h3>
+					<a href="https://w.app/gnosisbrasilsalvador" target="_blank">Whatsapp</a>
+					<a href="#">E-mail</a>
+					<a href="https://www.instagram.com/gnosisbrasil.salvador?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">Instagram</a>
+				</div>
+				<div class="rodape-info">
+					<h3>Sobre e Termos</h3>
+					<a href="quemsomos.html">Quem Somos</a>
+					<a href="#">Links de Referência</a>
+				</div>
+			</div>
+			<div id="nota">
+				<h4>Gnosis Brasil. Todos os direitos reservados©.</h4>
+			</div>
+		</footer>
+		<script type="text/javascript">
+			window.onload = function(){
+			(function(d, script) {
+			script = d.createElement('script');
+			script.type = 'text/javascript';
+			script.async = true;
+			script.src = 'https://w.app/widget-v1/5dRDGY.js';
+			d.getElementsByTagName('head')[0].appendChild(script);
+			}(document));
+			};
+		</script>
+		<script>
+			function clickmenu(){
+				// const hamburguer = document.getElementById('itens');
+				// itens.style.display = "block";
+				if(itens.style.display == "block") {
+					itens.style.display = "none";
+
+				} else {
+					itens.style.display = "block";
+				}
+			}
+		</script>
+</body>
+</html>

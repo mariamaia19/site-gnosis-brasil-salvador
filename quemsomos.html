@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="icon" type="image/x-icon" href="img/Imagem1.png">
+    <title>Produtos e Serviços</title>
+</head>
+<body>
+    <header>
+		<div class="logotipo">
+			<a href="index.html"><img src="img/imagotipo png transparente.png" alt="logotipo do Instituto Gnosis Brasil" style="height: 70px;"></a> <!--para adicionar link na imagem, coloque a imagem dentro da tag a-->
+		</div>
+		<nav>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="programacao.html">Programação</a></li>
+					<li class="dropdown"> <!--A classe vem no li ou na div??-->
+							<a href="quemsomos.html">Quem Somos▾</a> <!--tem que ter dropdown-->
+								<ul>
+									<div class="content">
+										<li><a href="#">A Instituição Gnosis Brasil ▸</a></li>
+										<li><a href="contato.html">Contato ▸</a></li>
+									</div>	
+								</ul>
+					<li><a href="location.html">Visite-nos</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!--<div class="date">
+			<p id="data"></p>
+		</div>-->
+	</header>
+    <main class="conteudo" style="height: 100vh;">
+        <h2>Estamos em construção</h2>
+        <div class="caixa">
+            <div class="caixa1" id="cx1">
+                <div id="overlay">
+                    <a href="index.html" style="cursor: pointer;">
+                        <button id="botao1" style="margin: 5%; padding: 15px; border-radius: 5px; font-weight:550; cursor: pointer;">Voltar para a página inicial</button>
+                    </a>
+                </div>
+            </div>
+            <div class="caixa1">2</div>
+            <div class="caixa1">3</div>
+            <div class="caixa1">4</div>
+        </div>
+    </main>
+        <div class="caixa1">2</div>
+        <div class="caixa1">3</div>
+        <div class="caixa1">4</div>
+    </main>
+    <footer>
+        <div>
+           <a href="index.html">
+				<img src="img/imagotipo png transparente.png" style="height: 80px;" alt="logo de rodapé do Instituto Gnosis">
+		   </a>
+        </div>
+        <div class="container-footer">
+            <div class="rodape-info">
+                <h3>Eventos</h3>
+                <a href="#">Palestras Públicas</a>
+                <a href="#">Curso de Autoconhecimento</a>
+                <a href="#"></a>
+            </div>
+            <div class="rodape-info">
+                <h3>Fale Conosco</h3>
+                <a href="https://w.app/gnosisbrasilsalvador" target="_blank">Whatsapp</a>
+                <a href="#">E-mail</a>
+                <a href="https://www.instagram.com/gnosisbrasil.salvador?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">Instagram</a>
+            </div>
+            <div class="rodape-info">
+                <h3>Sobre e Termos</h3>
+                <a href="quemsomos.html">Quem Somos</a>
+                <a href="#">Links de Referência</a>
+            </div>
+        </div>
+        <div id="nota">
+            <h4>Gnosis Brasil. Todos os direitos reservados©.</h4>
+        </div>
+    </footer>
+    <script type="text/javascript">
+		window.onload = function(){
+		(function(d, script) {
+		script = d.createElement('script');
+		script.type = 'text/javascript';
+		script.async = true;
+		script.src = 'https://w.app/widget-v1/RzbFxT.js';
+		d.getElementsByTagName('head')[0].appendChild(script);
+		}(document));
+		};
+	</script>
+    <script src="scripts.js"></script>
+</body>
+</html>
